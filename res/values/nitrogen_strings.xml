@@ -13,15 +13,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Nitrogen Settings -->
-    <string name="nitrogen_settings_title">Personalization</string>
-    <string name="nitrogen_settings_summary">Additional settings</string>
+    <string name="nitrogen_settings_title">Customizations</string>
+    <string name="nitrogen_settings_summary">Extra settings</string>
 
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
-    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+    <string name="show_dev_already_enabled">Developement options are alredy enabled.</string>
 
     <!-- Phone info shortcut -->
-    <string name="device_info_title">Phone info</string>
+    <string name="device_info_title">Device info</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
@@ -29,8 +29,8 @@
     <string name="changelog_error">Unable to load changelog</string>
 
     <!-- OTA -->
-    <string name="nosupdate_settings_title">Nitrogen OS updates</string>
-    <string name="nosupdate_settings_summary">Find new updates</string>
+    <string name="nosupdate_settings_title">Orion OS updates</string>
+    <string name="nosupdate_settings_summary">Check new updates</string>
 
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
@@ -198,7 +198,7 @@
     <string name="theme_black_title">Black</string>
     <string name="theme_black_title_summary">Themes the system to black</string>
     <!-- Color Manager: Device accent -->
-    <string name="device_accent_title">Device accent</string>
+    <string name="device_accent_title">UI accent</string>
 
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">enabled</string>
@@ -233,8 +233,8 @@
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
-    <string name="theme_applied_toast">Theme applied.</string>
-    <string name="applying_theme_toast">Applying theme, please wait...</string>
+    <string name="theme_applied_toast">Theme updated.</string>
+    <string name="applying_theme_toast">Updating theme, please wait...</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
