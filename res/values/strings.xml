@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +14,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Orion version. -->
+    <string name="OrionVersion">2.0</string>
     <!-- Strings for Dialog yes button -->
     <string name="yes">"Yes"</string>
     <!-- Strings for Dialog no button -->
@@ -177,14 +180,14 @@
     <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
     <string name="font_size_preview_text_headline">Sample text</string>
     <string name="font_size_preview_text_title"
-            translation_description="Title text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+        translation_description="Title text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         The Wonderful Wizard of Oz
     </string>
     <string name="font_size_preview_text_subtitle"
-            translation_description="Subtitle text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+        translation_description="Subtitle text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         Chapter 11: The Wonderful Emerald City of Oz</string>
     <string name="font_size_preview_text_body"
-            translation_description="Text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+        translation_description="Text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         Even with eyes protected by the green spectacles Dorothy and her friends were at first dazzled by the brilliancy of the wonderful City.
         The streets were lined with beautiful houses all built of green marble and studded everywhere with sparkling emeralds.
         They walked over a pavement of the same green marble, and where the blocks were joined together were rows of emeralds, set closely, and glittering in the brightness of the sun.
@@ -222,7 +225,7 @@
     <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
     <!-- Bluetooth settings screen, lock voice dialing checkbox summary text -->
     <string name="bluetooth_lock_voice_dialing_summary">
-      Prevent use of the bluetooth dialer when the screen is locked
+        Prevent use of the bluetooth dialer when the screen is locked
     </string>
     <!-- Bluetooth settings screen, heading above the list of nearby bluetooth devices -->
     <string name="bluetooth_devices">Bluetooth devices</string>
@@ -958,22 +961,22 @@
 
     <!-- Informational text in the first confirmation screen before starting device encryption -->
     <string name="crypt_keeper_desc" product="tablet">
-    You can encrypt your accounts, settings, downloaded apps and their data,
-    media, and other files. After you encrypt your tablet, assuming you\u2019ve set up a screen lock
-    (that is, a pattern or numeric PIN or password), you\u2019ll need to unlock the screen to decrypt
-    the tablet every time you power it on. The only other way to decrypt is to perform a factory
-    data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with
-    a charged battery and keep your tablet plugged in throughout the process. If you interrupt it,
-    you\u2019ll lose some or all of your data</string>
+        You can encrypt your accounts, settings, downloaded apps and their data,
+        media, and other files. After you encrypt your tablet, assuming you\u2019ve set up a screen lock
+        (that is, a pattern or numeric PIN or password), you\u2019ll need to unlock the screen to decrypt
+        the tablet every time you power it on. The only other way to decrypt is to perform a factory
+        data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with
+        a charged battery and keep your tablet plugged in throughout the process. If you interrupt it,
+        you\u2019ll lose some or all of your data</string>
     <!-- Informational text in the first confirmation screen before starting device encryption -->
     <string name="crypt_keeper_desc" product="default">
-    You can encrypt your accounts, settings, downloaded apps and their data,
-    media, and other files. After you encrypt your phone, assuming you\u2019ve set up a screen lock
-    (that is, a pattern or numeric PIN or password), you\u2019ll need to unlock the screen to decrypt
-    the phone every time you power it on. The only other way to decrypt is to perform a factory
-    data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with
-    a charged battery and keep your phone plugged in throughout the process. If you interrupt it,
-    you\u2019ll lose some or all of your data.</string>
+        You can encrypt your accounts, settings, downloaded apps and their data,
+        media, and other files. After you encrypt your phone, assuming you\u2019ve set up a screen lock
+        (that is, a pattern or numeric PIN or password), you\u2019ll need to unlock the screen to decrypt
+        the phone every time you power it on. The only other way to decrypt is to perform a factory
+        data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with
+        a charged battery and keep your phone plugged in throughout the process. If you interrupt it,
+        you\u2019ll lose some or all of your data.</string>
 
     <!-- Button text to start encryption process -->
     <string name="crypt_keeper_button_text" product="tablet">Encrypt tablet</string>
@@ -989,19 +992,19 @@
     <string name="crypt_keeper_dialog_need_password_title">No lock screen PIN or password</string>
     <!-- Dialog message, shown when encryption cannot proceed because a PIN/Password is needed -->
     <string name="crypt_keeper_dialog_need_password_message">You need to set a lock screen PIN or
-    password before you can start encryption.</string>
+        password before you can start encryption.</string>
 
     <!-- Title of the final confirmation screen before starting device encryption -->
     <string name="crypt_keeper_confirm_title">Encrypt?</string>
     <!-- Warning text in the final confirmation screen before starting device encryption -->
     <string name="crypt_keeper_final_desc" product="tablet">
-    The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
-    Encryption takes an hour or more, during which the tablet will restart several times.
+        The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
+        Encryption takes an hour or more, during which the tablet will restart several times.
     </string>
     <!-- Warning text in the final confirmation screen before starting device encryption -->
     <string name="crypt_keeper_final_desc" product="default">
-    The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
-    Encryption takes an hour or more, during which the phone will restart several times.
+        The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
+        Encryption takes an hour or more, during which the phone will restart several times.
     </string>
 
     <!-- Title of the progress screen while encrypting the device -->
@@ -1009,14 +1012,14 @@
 
     <!-- Informational text on the progress screen while encrypting the device -->
     <string name="crypt_keeper_setup_description" product="tablet">Wait while your tablet
-    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+        is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
     <!-- Informational text on the progress screen while encrypting the device -->
     <string name="crypt_keeper_setup_description" product="default">Wait while your phone
-    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+        is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
     <string name="crypt_keeper_setup_time_remaining" product="tablet">Wait while your tablet
-    is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+        is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
     <string name="crypt_keeper_setup_time_remaining" product="default">Wait while your phone
-    is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+        is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
 
     <string name="crypt_keeper_force_power_cycle" product="tablet">To unlock your tablet, turn it off and then on.</string>
     <string name="crypt_keeper_force_power_cycle" product="default">To unlock your phone, turn it off and then on.</string>
@@ -1024,7 +1027,7 @@
 
     <!-- Warn user their device will be wiped if they make x more failed attempts -->
     <string name="crypt_keeper_warn_wipe">Warning: Your device will be wiped after
-    <xliff:g id="count" example="7">^1</xliff:g> more failed attempts to be unlocked!
+        <xliff:g id="count" example="7">^1</xliff:g> more failed attempts to be unlocked!
     </string>
 
     <!-- Informational text on the password entry screen prompting the user for their password -->
@@ -1035,21 +1038,21 @@
 
     <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_failed_summary" product="tablet">
-      Encryption was interrupted and can\u2019t complete. As a result, the data on
-      your tablet is no longer accessible.
-      \n\n
-      To resume using your tablet, you need to perform a factory reset.
-      When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+        Encryption was interrupted and can\u2019t complete. As a result, the data on
+        your tablet is no longer accessible.
+        \n\n
+        To resume using your tablet, you need to perform a factory reset.
+        When you set up your tablet after the reset, you\u2019ll have an opportunity
+        to restore any data that was backed up to your Google Account.
     </string>
 
     <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_failed_summary" product="default">
-      Encryption was interrupted and can\u2019t complete. As a result, the data on
-      your phone is no longer accessible.
-      \n\nTo resume using your phone, you need to perform a factory reset.
-      When you set up your phone after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+        Encryption was interrupted and can\u2019t complete. As a result, the data on
+        your phone is no longer accessible.
+        \n\nTo resume using your phone, you need to perform a factory reset.
+        When you set up your phone after the reset, you\u2019ll have an opportunity
+        to restore any data that was backed up to your Google Account.
     </string>
 
     <!-- Title of the encryption screen when decrypting the device failed -->
@@ -1057,20 +1060,20 @@
 
     <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_data_corrupt_summary" product="tablet">
-      The password you entered is correct, but unfortunately your data is
-      corrupt.
-      \n\nTo resume using your tablet, you need to perform a factory reset.
-      When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+        The password you entered is correct, but unfortunately your data is
+        corrupt.
+        \n\nTo resume using your tablet, you need to perform a factory reset.
+        When you set up your tablet after the reset, you\u2019ll have an opportunity
+        to restore any data that was backed up to your Google Account.
     </string>
 
     <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_data_corrupt_summary" product="default">
-      The password you entered is correct, but unfortunately your data is
-      corrupt.
-      \n\nTo resume using your phone, you need to perform a factory reset.
-      When you set up your phone after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+        The password you entered is correct, but unfortunately your data is
+        corrupt.
+        \n\nTo resume using your phone, you need to perform a factory reset.
+        When you set up your phone after the reset, you\u2019ll have an opportunity
+        to restore any data that was backed up to your Google Account.
     </string>
 
     <!-- Image button description to switch input method -->
@@ -1533,9 +1536,9 @@
       place-holders "LINK_BEGIN" and "LINK_END" must NOT be translated. They mark a link to bring
       the user to "scanning settings" screen. -->
     <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can
-      still detect Bluetooth devices. You can change this in
-      <xliff:g id="link_begin">LINK_BEGIN</xliff:g>scanning
-      settings<xliff:g id="link_end">LINK_END</xliff:g>.</string>
+        still detect Bluetooth devices. You can change this in
+        <xliff:g id="link_begin">LINK_BEGIN</xliff:g>scanning
+        settings<xliff:g id="link_end">LINK_END</xliff:g>.</string>
     <!-- Bluetooth connecting error message [CHAR LIMIT=NONE] -->
     <string name="bluetooth_connect_failed">Couldn\'t connect. Try again.</string>
 
@@ -2885,33 +2888,33 @@
 
     <!-- Dialog body informing user about an unmounted storage device. [CHAR LIMIT=NONE]-->
     <string name="storage_dialog_unmounted">This <xliff:g id="name" example="SD card">^1</xliff:g> is safely ejected, but still available.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to mount it first.</string>
+        \n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to mount it first.</string>
 
     <!-- Dialog body informing user about an unmountable storage device. [CHAR LIMIT=NONE]-->
     <string name="storage_dialog_unmountable">This <xliff:g id="name" example="SD card">^1</xliff:g> is corrupted.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to set it up first.</string>
+        \n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to set it up first.</string>
 
     <!-- Dialog body informing user about an unsupported storage device. [CHAR LIMIT=NONE]-->
     <string name="storage_dialog_unsupported">This device doesn\u2019t support this <xliff:g id="name" example="SD card">^1</xliff:g>.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g> with this device, you have to set it up first.</string>
+        \n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g> with this device, you have to set it up first.</string>
 
     <!-- Body of dialog informing user about consequences of formatting an internal storage device [CHAR LIMIT=NONE]-->
     <string name="storage_internal_format_details">After formatting, you can use this <xliff:g id="name" example="SD card">^1</xliff:g> in other devices.
-\n\nAll data on this <xliff:g id="name" example="SD card">^1</xliff:g> will be erased. Consider backing up first.
-\n\n<b>Back up photos &amp; other media</b>
-\nMove your media files to alternative storage on this device, or transfer them to a computer using a USB cable.
-\n\n<b>Back up apps</b>
-\nAll apps stored on this <xliff:g id="name" example="SD card">^1</xliff:g> will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device.</string>
+        \n\nAll data on this <xliff:g id="name" example="SD card">^1</xliff:g> will be erased. Consider backing up first.
+        \n\n<b>Back up photos &amp; other media</b>
+        \nMove your media files to alternative storage on this device, or transfer them to a computer using a USB cable.
+        \n\n<b>Back up apps</b>
+        \nAll apps stored on this <xliff:g id="name" example="SD card">^1</xliff:g> will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device.</string>
 
     <!-- Body of dialog informing user about consequences of ejecting an internal storage device [CHAR LIMIT=NONE]-->
     <string name="storage_internal_unmount_details"><b>When you eject this <xliff:g id="name" example="SD card">^1</xliff:g>, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.</b>
-\n\nThis <xliff:g id="name" example="SD card">^1</xliff:g> is formatted to work on this device only.  It won\u2019t work on any others.</string>
+        \n\nThis <xliff:g id="name" example="SD card">^1</xliff:g> is formatted to work on this device only.  It won\u2019t work on any others.</string>
 
     <!-- Body of dialog informing user about consequences of forgetting an internal storage device [CHAR LIMIT=NONE]-->
     <string name="storage_internal_forget_details">To use the apps, photos, or data this <xliff:g id="name" example="SD card">^1</xliff:g> contains, reinsert it.
-\n\nAlternatively, you can choose to forget this storage if the device isn\u2019t available.
-\n\nIf you choose to forget, all the data the device contains will be lost forever.
-\n\nYou can reinstall the apps later, but their data stored on this device will be lost.</string>
+        \n\nAlternatively, you can choose to forget this storage if the device isn\u2019t available.
+        \n\nIf you choose to forget, all the data the device contains will be lost forever.
+        \n\nYou can reinstall the apps later, but their data stored on this device will be lost.</string>
 
     <!-- Title of dialog confirming that user wants to forget an internal storage device [CHAR LIMIT=32]-->
     <string name="storage_internal_forget_confirm_title">Forget <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
@@ -2937,14 +2940,14 @@
 
     <!-- Body of dialog informing user about other files on a storage device [CHAR LIMIT=NONE]-->
     <string name="storage_detail_dialog_other">Other includes shared files saved by apps, files downloaded from the Internet or Bluetooth, Android files, and so on.
-\n\nTo see the visible contents of this <xliff:g id="name" example="SD card">^1</xliff:g>, tap Explore.</string>
+        \n\nTo see the visible contents of this <xliff:g id="name" example="SD card">^1</xliff:g>, tap Explore.</string>
 
     <!-- Body of dialog informing user about the storage used by the Android System [CHAR LIMIT=NONE]-->
     <string name="storage_detail_dialog_system">System includes files used to run Android version <xliff:g id="version" example="8.0">%s</xliff:g></string>
 
     <!-- Body of dialog informing user about other users on a storage device [CHAR LIMIT=NONE]-->
     <string name="storage_detail_dialog_user"><xliff:g id="user" example="Guest user">^1</xliff:g> may have saved photos, music, apps, or other data, using <xliff:g id="size" example="1.2 GB">^2</xliff:g> of storage.
-\n\nTo view details, switch to <xliff:g id="user" example="Guest user">^1</xliff:g>.</string>
+        \n\nTo view details, switch to <xliff:g id="user" example="Guest user">^1</xliff:g>.</string>
 
     <!-- Title of wizard step prompting user to setup a storage device [CHAR LIMIT=32] -->
     <string name="storage_wizard_init_title">Set up your <xliff:g id="name" example="SD card">^1</xliff:g></string>
@@ -2961,15 +2964,15 @@
     <string name="storage_wizard_format_confirm_title">Format as internal storage</string>
     <!-- Body of wizard step prompting user to format a storage device [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_format_confirm_body">This requires the <xliff:g id="name" example="SD card">^1</xliff:g> to be formatted to make it secure.
-\n\nAfter formatting, this <xliff:g id="name" example="SD card">^1</xliff:g> will only work in this device.
-\n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
+        \n\nAfter formatting, this <xliff:g id="name" example="SD card">^1</xliff:g> will only work in this device.
+        \n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
     </string>
 
     <!-- Title of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
     <string name="storage_wizard_format_confirm_public_title">Format as portable storage</string>
     <!-- Body of wizard step prompting user to format a storage device [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_format_confirm_public_body">This requires the <xliff:g id="name" example="SD card">^1</xliff:g> to be formatted.
-\n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
+        \n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
     </string>
 
     <!-- Next button text of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
@@ -2984,7 +2987,7 @@
     <string name="storage_wizard_migrate_title">Move data to new storage</string>
     <!-- Body of wizard step prompting user to migrate data to new storage [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_migrate_body">You can move your photos, files, and some apps to this new <xliff:g id="name" example="SD card">^1</xliff:g>.
-\n\nThe move takes about <xliff:g id="time" example="1 hour">^2</xliff:g> and will free <xliff:g id="size" example="1.2 GB">^3</xliff:g> on internal storage. Some apps won\u2019t work while it\u2019s underway.
+        \n\nThe move takes about <xliff:g id="time" example="1 hour">^2</xliff:g> and will free <xliff:g id="size" example="1.2 GB">^3</xliff:g> on internal storage. Some apps won\u2019t work while it\u2019s underway.
     </string>
 
     <!-- Title of wizard choice to migrate data right now [CHAR LIMIT=64] -->
@@ -3004,9 +3007,9 @@
 
     <!-- Body of wizard step providing details about data migration [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_migrate_details">During the move:
-\n\u2022 Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g>.
-\n\u2022 Some apps won\u2019t work correctly.
-\n\u2022 Keep the device charged.
+        \n\u2022 Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g>.
+        \n\u2022 Some apps won\u2019t work correctly.
+        \n\u2022 Keep the device charged.
     </string>
 
     <!-- Title of wizard step indicating that storage is ready [CHAR LIMIT=32] -->
@@ -3017,30 +3020,30 @@
     </string>
     <!-- Body of wizard step indicating that internal storage is ready [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_ready_internal_body">Your new <xliff:g id="name" example="SD card">^1</xliff:g> is working.
-\n\nTo move photos, files, and app data to this device, go to Settings > Storage.
+        \n\nTo move photos, files, and app data to this device, go to Settings > Storage.
     </string>
 
     <!-- Title of wizard step prompting user to move an app [CHAR LIMIT=32] -->
     <string name="storage_wizard_move_confirm_title">Move <xliff:g id="app" example="Calculator">^1</xliff:g></string>
     <!-- Body of wizard step prompting user to move an app [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_move_confirm_body">Moving <xliff:g id="app" example="Calculator">^1</xliff:g> and its data to <xliff:g id="name" example="SD card">^2</xliff:g> will take only a few moments. You won\u2019t be able to use the app until the move is complete.
-\n\nDon\u2019t remove the <xliff:g id="name" example="SD card">^2</xliff:g> during the move.
+        \n\nDon\u2019t remove the <xliff:g id="name" example="SD card">^2</xliff:g> during the move.
     </string>
 
     <!-- Title of wizard step showing app move progress [CHAR LIMIT=32] -->
     <string name="storage_wizard_move_progress_title">Moving <xliff:g id="app" example="Calculator">^1</xliff:g>\u2026</string>
     <!-- Body of wizard step showing app move progress [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_move_progress_body">Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g> during the move.
-\n\nThe <xliff:g id="app" example="Calculator">^2</xliff:g> app on this device won\u2019t be available until the move is complete.
+        \n\nThe <xliff:g id="app" example="Calculator">^2</xliff:g> app on this device won\u2019t be available until the move is complete.
     </string>
     <!-- Title of wizard button offering to cancel move [CHAR LIMIT=32] -->
     <string name="storage_wizard_move_progress_cancel">Cancel move</string>
 
     <!-- Title of wizard step prompting user to start data migration [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_slow_body">This <xliff:g id="name" example="SD card">^1</xliff:g> appears to be slow.
-\n\nYou can continue, but apps moved to this location may stutter and data transfers may take a long time.
-\n\nConsider using a faster <xliff:g id="name" example="SD card">^1</xliff:g> for better performance.
-</string>
+        \n\nYou can continue, but apps moved to this location may stutter and data transfers may take a long time.
+        \n\nConsider using a faster <xliff:g id="name" example="SD card">^1</xliff:g> for better performance.
+    </string>
 
     <!-- Phone info screen, section titles: -->
     <string name="battery_status_title">Battery status</string>
@@ -3336,7 +3339,7 @@
     <string name="location_scanning_wifi_always_scanning_title">Wi\u2011Fi scanning</string>
     <!-- Preference description text for Wi-Fi always scanning -->
     <string name="location_scanning_wifi_always_scanning_description">Improve location by allowing
-      system apps and services to detect Wi\u2011Fi networks at any time.</string>
+        system apps and services to detect Wi\u2011Fi networks at any time.</string>
     <!-- [CHAR LIMIT=130] Description text for Bluetooth always scanning -->
     <string name="location_scanning_bluetooth_always_scanning_title">Bluetooth scanning</string>
     <!-- Description text for Bluetooth always scanning -->
@@ -3724,7 +3727,7 @@
     <string name="clear_activities">Clear defaults</string>
     <!-- Manage applications, individual application info screen, screen, message text under screen compatibility heading -->
     <string name="screen_compatibility_text">This app may not be designed for your screen. You can control how it
-            adjusts to your screen here.</string>
+        adjusts to your screen here.</string>
     <!-- Manage applications, individual application screen, checkbox to control asking for compatibility mode.  -->
     <string name="ask_compatibility">Ask when launched</string>
     <!-- Manage applications, individual application screen, checkbox to control compatibility mode.  -->
@@ -3821,16 +3824,16 @@
          This describes the permissions that the application has.  It is used when multiple packages are contributing
          to the permissions and need to be listed here. -->
     <string name="security_settings_desc_multi" product="tablet">This app can access the following on your tablet.
-         In order to improve performance and reduce memory usage, some of these permissions
-         are available to <xliff:g id="base_app_name">%1$s</xliff:g>
-         because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+        In order to improve performance and reduce memory usage, some of these permissions
+        are available to <xliff:g id="base_app_name">%1$s</xliff:g>
+        because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
     <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
          This describes the permissions that the application has.  It is used when multiple packages are contributing
          to the permissions and need to be listed here. -->
     <string name="security_settings_desc_multi" product="default">This app can access the following on your phone.
-         In order to improve performance and reduce memory usage, some of these permissions
-         are available to <xliff:g id="base_app_name">%1$s</xliff:g>
-         because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+        In order to improve performance and reduce memory usage, some of these permissions
+        are available to <xliff:g id="base_app_name">%1$s</xliff:g>
+        because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
     <!-- [CHAR_LIMIT=NONE] Format to put together two items in a list. -->
     <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> and <xliff:g id="second_item">%2$s</xliff:g></string>
     <!-- [CHAR_LIMIT=NONE] Format to put together two unrelated items in a list when "and" is not an appropriate conjunction for these 2 items -->
@@ -4077,10 +4080,10 @@
     <!-- Warning message about security implications of enabling a spell checker, displayed as a dialog
          message when the user selects to enable a spell checker. -->
     <string name="spellchecker_security_warning">This spell checker may be able to collect
-    all the text you type, including personal data like passwords and credit
-    card numbers.  It comes from the app
-    <xliff:g id="spellchecker_application_name">%1$s</xliff:g>.
-    Use this spell checker?</string>
+        all the text you type, including personal data like passwords and credit
+        card numbers.  It comes from the app
+        <xliff:g id="spellchecker_application_name">%1$s</xliff:g>.
+        Use this spell checker?</string>
     <!-- Image button description for spell checker quick settings. -->
     <string name="spellchecker_quick_settings">Settings</string>
     <!-- Image button description for spell checker language. -->
@@ -4452,7 +4455,7 @@
     <!-- Title for a warning about security implications of enabling an accessibility
          service. [CHAR LIMIT=NONE] -->
     <string name="enable_service_title">Use
-         <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
+        <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
     <!-- Title for the list of capabilities of an accessibility service. -->
     <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g>
         needs to:</string>
@@ -4613,7 +4616,7 @@
     <string name="power_usage_not_available">Battery usage data isn\u2019t available.</string>
     <!-- Display the battery level and status [CHAR_LIMIT=60] -->
     <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g>
-            - <xliff:g id="status">%2$s</xliff:g></string>
+        - <xliff:g id="status">%2$s</xliff:g></string>
     <!-- Display time remaining until battery is discharged [CHAR_LIMIT=60] -->
     <string name="power_discharge_remaining"><xliff:g id="remain">%1$s</xliff:g> remaining</string>
     <!-- Display time remaining until battery is charged [CHAR_LIMIT=60] -->
@@ -5496,7 +5499,7 @@
     <string name="sync_contacts">Contacts</string>
     <!-- Message introducing the user to Google Sync. -->
     <string name="sync_plug"><font fgcolor="#ffffffff">Welcome to Google sync!</font>
-    \nA Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are.
+        \nA Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are.
     </string>
 
     <!-- Header title for those settings relating to application syncing. -->
@@ -6927,7 +6930,7 @@
     <!-- Title for a warning message about security implications of enabling a notification
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="notification_listener_security_warning_title">Allow notification access for
-         <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
+        <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
     <!-- Summary for a warning message about security implications of enabling a notification
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="notification_listener_security_warning_summary">
@@ -6951,7 +6954,7 @@
     <!-- Title for a warning message about security implications of enabling a VR
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="vr_listener_security_warning_title">Allow VR service access for
-         <xliff:g id="service" example="VrCore">%1$s</xliff:g>?</string>
+        <xliff:g id="service" example="VrCore">%1$s</xliff:g>?</string>
     <!-- Summary for a warning message about security implications of enabling a VR
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="vr_listener_security_warning_summary">
@@ -7356,19 +7359,19 @@
 
     <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a PIN to encrypt the device. [CHAR LIMIT=NONE] -->
     <string name="encryption_interstitial_message_pin">
-   You can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
-   \n\nThis helps protect data on lost or stolen devices. Require PIN to start your device?
-   </string>
+        You can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
+        \n\nThis helps protect data on lost or stolen devices. Require PIN to start your device?
+    </string>
     <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a pattern to encrypt the device. [CHAR LIMIT=NONE] -->
     <string name="encryption_interstitial_message_pattern">
-   You can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
-   \n\nThis helps protect data on lost or stolen devices. Require pattern to start your device?
-   </string>
+        You can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
+        \n\nThis helps protect data on lost or stolen devices. Require pattern to start your device?
+    </string>
     <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a password to encrypt the device. [CHAR LIMIT=NONE] -->
     <string name="encryption_interstitial_message_password">
-   You can further protect this device by requiring your password before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
-   \n\nThis helps protect data on lost or stolen devices. Require password to start your device?
-   </string>
+        You can further protect this device by requiring your password before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.
+        \n\nThis helps protect data on lost or stolen devices. Require password to start your device?
+    </string>
 
     <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a PIN to encrypt the device while setting up fingerprint unlock. [CHAR LIMIT=NONE] -->
     <string name="encryption_interstitial_message_pin_for_fingerprint">In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require PIN to start your device?</string>
