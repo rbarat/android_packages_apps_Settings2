@@ -25,9 +25,16 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
-        <!-- Nitrogen Logo Header -->
+        <!-- Orion Logo Header -->
         <Preference android:key="nos_logo"
             android:layout="@layout/nitrogen_logo" />
+			
+		<!-- Orion version -->
+        <Preference
+            android:key="nos_version"
+            android:title="Orion version"
+            android:summary="@string/OrionVersion"
+            />
 
         <!-- Changelog -->
         <Preference
