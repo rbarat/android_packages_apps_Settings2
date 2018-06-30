@@ -25,15 +25,15 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
-        <!-- Orion Logo Header -->
+        <!-- Pyxis Logo Header -->
         <Preference android:key="nos_logo"
             android:layout="@layout/nitrogen_logo" />
 			
-		<!-- Orion version -->
+		<!-- Pyxis version -->
         <Preference
             android:key="nos_version"
-            android:title="Orion version"
-            android:summary="@string/OrionVersion"
+            android:title="Pyxis version"
+            android:summary="@string/PyxisVersion"
             />
 
         <!-- Changelog -->

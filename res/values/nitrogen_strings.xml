@@ -29,7 +29,7 @@
     <string name="changelog_error">Unable to load changelog</string>
 
     <!-- OTA -->
-    <string name="nosupdate_settings_title">Orion OS updates</string>
+    <string name="nosupdate_settings_title">Pyxis OS updates</string>
     <string name="nosupdate_settings_summary">Check new updates</string>
 
     <string name="dashboard_conditions_title">Dashboard conditions</string>
